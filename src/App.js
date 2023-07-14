@@ -1,24 +1,10 @@
-import Form from "./components/Form";
-import Button from "./components/Button";
-import Benefits from "./components/Benefits";
-import Title from "./components/Title";
+import Main from "./components/Main";
+
 
 function App() {
   return (
     <div className="App" >
-      <div className="">
-        <div>
-          <Title/>
-          <Benefits/>
-          <Form/>
-          <Button/>
-        </div>
-
-        <div>
-          <img src=""/>
-        </div>
-        
-      </div>
+        <Main/>
     </div>
   );
 }

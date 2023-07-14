@@ -1,6 +1,10 @@
 const Title = () => {
     return (
-        <h1>
+        <h1 className="
+            font-bold
+            text-blue-dark
+            text-4xl
+            ">
             Stay updated!
         </h1>
     )
