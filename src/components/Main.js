@@ -1,22 +1,18 @@
-import Form from "./Form";
-import Button from "./Button";
-import Benefits from "./Benefits";
-import Title from "./Title";
+import Content from "./Content"
 
 const Main = () => {
     return(
-        <div className="font-roboto">
-          <img 
-            src="/assets/illustration-sign-up-mobile.svg"
-            className="
-                w-full 
-                rounded-b-lg"
-          >
-          </img>
-          <Title/>
-          <Benefits/>
-          <Form/>
-          <Button/>
+        <div className="font-roboto w-full">
+          <div className="w-full flex flex-col aling-center justify-center">
+            <img 
+              src="/assets/illustration-sign-up-mobile.svg"
+              className="
+                  w-full
+                  h-auto
+                  rounded-b-lg"
+            />
+          </div>
+          <Content/>
         </div>
     )
 }
