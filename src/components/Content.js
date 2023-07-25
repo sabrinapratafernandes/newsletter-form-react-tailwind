@@ -2,6 +2,7 @@ import Form from "./Form";
 import Button from "./Button";
 import Benefits from "./Benefits";
 import Title from "./Title";
+import NewsletterForm from "./NewsletterForm";
 
 const Content = () => {
     return (
@@ -11,8 +12,7 @@ const Content = () => {
                     flex-col">
             <Title/>
             <Benefits/>
-            <Form/>
-            <Button/>
+            <NewsletterForm/>
         </div>
     )
 }

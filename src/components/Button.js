@@ -10,7 +10,7 @@ const Button = () => {
                     text-sm
                     p-4
                     m-2
-                    w-80">
+                    w-full ">
             Subscribe to monthly newsletter
         </button>
     )

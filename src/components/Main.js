@@ -1,4 +1,5 @@
 import Content from "./Content"
+import NewsletterForm from "./NewsletterForm"
 
 const Main = () => {
     return(
